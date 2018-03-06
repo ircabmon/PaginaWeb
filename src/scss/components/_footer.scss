@@ -1,0 +1,28 @@
+.web-footer{
+    box-sizing:border-box;
+    position: bottom; //el pie de página se queda fija
+    bottom: 0px; //se situa el pie de página en la parte inferior de la página
+    left: 0; // se situa a la izquierda de la página
+    width: 100%; //el pie de página ocupa todo el ancho de la página
+    background: fade-out($color-marron,0.4);
+    padding: 15px;
+    color: $color-rosa;
+    text-align: center;
+    position: fixed;
+
+    transition: background 0.5s;
+    &:hover{
+        background: $color-marron;
+    }
+    .web-title{
+        font-size: $font-size-large + 3px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: $title-font-family;
+    }
+    a{
+        text-decoration: none;
+        color: $color-rosa;
+        padding-right: 15px;
+    }
+}

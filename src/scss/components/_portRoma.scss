@@ -1,0 +1,15 @@
+.roma-img{
+    margin-top: 50px;
+    background-size: 100% 100%;
+    background-image: url(img/roma.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: #524747;
+    transition: background-size 0.5s;
+
+    &:hover{
+        background-size: 110% 110%;
+    }
+
+}

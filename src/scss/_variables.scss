@@ -1,0 +1,47 @@
+// Font families
+$main-font-family: 'Raleway', sans-serif;
+$title-font-family: 'Nanum Pen Script', cursive;
+$body-font-family: $main-font-family;
+
+// Font sizes
+$font-size-base: 15px;
+$font-size-small: $font-size-base - 3px;
+$font-size-large: $font-size-base + 5px;
+$font-size-h1: $font-size-base + 15px;
+$font-size-h2: $font-size-base + 12px;
+$font-size-h3: $font-size-base + 9px;
+$font-size-h4: $font-size-base + 6px;
+$font-size-h5: $font-size-base + 3px;
+$font-size-h6: $font-size-base;
+
+// Base colors
+$color-rosa: #C38685;
+$color-gris: #585663;
+$color-crema: #E2DFD0;
+$color-azul: #C1CDE3;
+$color-marron: #261E1C;
+$color-tierra:#E7C186;  
+$color-azul-gris:#547980;
+$color-turquesa: #45ADA8;
+$color-verde: #9DE0AD;
+$color-verde-claro: #E5FCC2;
+
+// Main components colors
+$main-text-color: $color-marron;
+$links-color: $color-gris;
+
+
+// Responsive
+// 667 iphone landscape. 768 ipad portrait
+$mobile-portrait-width: 414px;
+$mobile-landscape-width: 767px;
+$tablet-portrait-width: $mobile-landscape-width + 1;
+$tablet-landscape-width: 1024px;
+
+// Forms variables
+$form-input-border-color: $color-crema;
+$form-input-outline-color: $color-crema;
+$form-button-background-color: $color-marron;
+$form-button-font-color: $color-rosa;
+$form-error-background-color: #B04D59 ;
+$form-error-font-color: $color-marron;

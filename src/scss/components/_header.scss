@@ -1,0 +1,60 @@
+.web-header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 4px 0px 0px; //tamaño del rectangulo de cabecera
+    box-sizing:border-box;
+    position: fixed; //la cabecera se queda fija
+    top: 0px; //se situa la cabecera en la parte superior de la página
+    left: 0; // se situa a la izquierda de la página
+    width: 100%; //la cabecera ocupa todo el ancho de la página
+    background-image: url(img/estructura.jpg);
+    background-size: 100%;
+    color: white;
+    text-align: center;
+   
+    transition: background 0.4s;
+    &:hover{
+        background-image: url(img/estructura2.jpg);
+    }
+    .web-title{
+        display:flex;
+        font-size: $font-size-h1 + 10px;
+        font-weight: bold;
+        font-family: $title-font-family;
+        text-transform: uppercase;
+        width: 50%;
+        text-shadow: 3px 3px 2px rgb(20, 0, 12);
+    }
+    .form-search{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        .busquedas{
+            width: 100px;
+            margin-right: 4px;
+            margin-left: 15px;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: $color-azul;
+        }
+
+    }
+    .form-ingres {
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       width: 50px;
+       .botonimagen{
+        border-radius: 28px;
+        margin-top: 20px;
+        padding-top: 10px;
+        background-image:url(img/ingresar.png);
+        background-repeat:no-repeat;
+        height:45px;
+        width:100%;
+        background-position:center;
+      }
+
+    }
+}
