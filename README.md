@@ -1,8 +1,1 @@
-# Pasos a seguir:
-
-###  1. Descargar este repositorio.
-###  2. Abrir el proyecto con Visual Studio Code.
-###  3. Ir a *"Ver"* del menú superior y seleccionar *"Terminal integrada"*.
-###  4. Ejecutar el comando:  *npm install*.
-###  5. Ejecutar el comando:  *gulp img*.
-###  6. Ejecutar el comando:  *gulp*.
+﻿# Irene Cabria Mondéjar 2ºDCHe realizado dos páginas detail, a una de ellas se accede con el primer artículo y a la otra se accede con los otros 9 artículos.
